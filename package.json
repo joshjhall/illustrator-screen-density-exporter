@@ -1,0 +1,51 @@
+{
+  "name": "illustrator-screen-density-exporter",
+  "version": "0.3.1",
+  "description": "Export various screen densities from Illustrator for different platforms (iOS, Android, Windows 8, etc.).",
+  "author": {
+    "name": "Joshua Hall",
+    "email": "josh@yaplabs.com",
+    "web": "http://yaplabs.com"
+  },
+  "contributors": [
+    {
+      "name": "Joshua Hall",
+      "email": "josh@yaplabs.com",
+      "web": "http://yaplabs.com"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": "0.10.31",
+    "npm": "1.4.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/joshjhall/illustrator-screen-density-exporter.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Adobe Illustrator",
+    "Screen density",
+    "Retina displays",
+    "Image export"
+  ],
+  "licenses": [{
+    "type": "GPLv2",
+    "url": "https://github.com/joshjhall/illustrator-screen-density-exporter/blob/master/LICENSE"
+  }],
+  "homepage": "https://github.com/joshjhall/illustrator-screen-density-exporter",
+  "bugs": {
+    "url" : "https://github.com/joshjhall/illustrator-screen-density-exporter/issues",
+    "email" : "josh@yaplabs.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-coffee": "~0.11",
+    "grunt-shell": "~1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
